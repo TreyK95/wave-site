@@ -7,7 +7,7 @@
   text-decoration: none;
   list-style-type: none;
   outline: none;
-  font-family: Bellota Text, cursive;
+  font-family: League Gothic;
   font-weight: 400;
 }
 
@@ -23,10 +23,14 @@ html {
   font-size: 10rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #444;
   text-align: center;
   opacity: 0.1;
   text-shadow: 2rem 2rem 4rem #888;
+}
+span {
+  font-family: Amsterdam;
+  font-size: 4rem;
 }
 /* common styles */
 /* section 1 */
@@ -74,43 +78,55 @@ html {
   justify-content: space-evenly;
 }
 .navbar-link {
-  font-size: 2.2rem;
+  font-size: 3rem;
   font-weight: 700;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.5rem;
   color: #fff;
-  width: 1.5rem;
-  word-wrap: break-word;
+  width: 2rem;
+  /* word-wrap: ; */
   text-align: center;
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
 }
 .navbar-link:hover {
   width: 15rem;
   background-color: rgba(255, 255, 255, 0.2);
-  transition: all 2.5s;
+  /* transition: all 2.5s; */
 }
 .section-1-heading {
-  font-size: 8rem;
-  font-family: monoton, cursive;
+  font-size: 35rem;
+  font-family: League Gothic;
   position: absolute;
   top: 18vw;
   left: 50%;
   transform: translateX(-50%);
-  text-shadow: 0.3rem 0.3rem 0.3rem #888;
+  text-shadow: 0.3rem 0.3rem 0.3rem black;
   color: #fff;
-  background-color: #fff;
+  background-color: #000;
   width: 85rem;
   text-align: center;
   padding: 0.8rem 1.6rem;
   border-radius: 0.8rem;
   opacity: 0.9;
 }
+.img {
+  transform: translateX(-50%);
+  top: 18vw;
+  left: 50%;
+  text-align: center;
+  position: absolute;
+}
 .logo {
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-20%);
 }
-.logo i {
+.logo img {
+  font-size: 15rem;
+  color: rgba(50, 231, 255, 0.8);
+  text-shadow: 0.1rem 0.1rem 0.2rem #ddd, -0.1rem -0.1rem -0.2rem #ddd;
+}
+.logo-img {
   font-size: 15rem;
   color: rgba(50, 231, 255, 0.8);
   text-shadow: 0.1rem 0.1rem 0.2rem #ddd, -0.1rem -0.1rem -0.2rem #ddd;
