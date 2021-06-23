@@ -244,6 +244,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: #000;
 }
 
 .customers-wrapper {
@@ -281,7 +282,7 @@ span {
 .customer-text {
   font-size: 1.8rem;
   margin: 2.5rem 0;
-  text-align: justify;
+  text-align: center;
 }
 .customer-text::first-letter {
   margin-left: 1rem;
