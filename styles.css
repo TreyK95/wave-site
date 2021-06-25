@@ -107,23 +107,20 @@ span {
   opacity: 0.9;
   letter-spacing: 0.5rem;
 }
-.img {
+/* .img {
   transform: translateX(-50%);
   top: 18vw;
   left: 50%;
   text-align: center;
   position: absolute;
-}
+} */
 .logo {
   position: absolute;
   top: 70%;
-  left: 50%;
+  left: 55%;
   transform: translateX(-50%);
-  justify-content: center;
-  display: flex;
-  align-items: center;
 }
-.logo img {
+/* .logo img {
   font-size: 15rem;
   color: rgba(50, 231, 255, 0.8);
   text-shadow: 0.1rem 0.1rem 0.2rem #ddd, -0.1rem -0.1rem -0.2rem #ddd;
@@ -132,7 +129,7 @@ span {
   font-size: 15rem;
   color: rgba(50, 231, 255, 0.8);
   text-shadow: 0.1rem 0.1rem 0.2rem #ddd, -0.1rem -0.1rem -0.2rem #ddd;
-}
+} */
 /* end of section 1 */
 .video-section {
   width: 100%;
@@ -140,6 +137,7 @@ span {
   background-color: #000;
   display: flex;
   align-items: center;
+  flex-direction: row;
   padding: 0 10rem;
   position: relative;
 }
@@ -148,7 +146,7 @@ span {
   font-size: 10rem;
   font-weight: 300;
   color: #fff;
-  margin-right: 4rem;
+  margin-right: 2rem;
 }
 .section-heading-line {
   width: 15rem;
@@ -156,14 +154,16 @@ span {
   background-color: #ddd;
 }
 .video-wrapper {
-  width: 70rem;
-  height: 110rem;
+  width: 40rem;
+  height: 60rem;
   position: absolute;
   top: 5rem;
   right: 15rem;
   box-shadow: 3rem 3rem 3rem rgba(0, 0, 0, 0.7);
-
+  z-index: 300;
   overflow: hidden;
+  border-radius: 3rem;
+  margin-top: 5rem;
 }
 .video {
   width: 100%;
@@ -450,7 +450,7 @@ span {
 }
 .form-img {
   width: 55rem;
-  background-color: rgba(50, 231, 255, 0.8);
+  background-color: #007cc7;
   padding: 5rem;
   opacity: 0.8rem;
   box-shadow: 0.5rem;
@@ -496,7 +496,7 @@ span {
   min-width: 70%;
 }
 .contact-form input[type="submit"] {
-  background-color: rgba(50, 231, 255, 0.8);
+  background-color: #007cc7;
   color: #fff;
   font-weight: bolder;
   letter-spacing: 0.5rem;
@@ -505,7 +505,7 @@ span {
   transition: background-color 0.5s;
 }
 .contact-form input[type="submit"]:hover {
-  background-color: #32e7ff;
+  background-color: #007cc7;
 }
 .copyright {
   font-size: 2rem;
