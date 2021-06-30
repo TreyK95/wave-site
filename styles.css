@@ -213,8 +213,9 @@ span {
 .section-2-paragraph {
   width: 100rem;
   position: absolute;
+  color: white;
   bottom: 8rem;
-  right: 15rem;
+  left: 5rem;
   font-size: 2rem;
   color: #ddd;
   border-top: 0.3rem double #aaa;
