@@ -504,7 +504,6 @@ span {
   cursor: pointer;
   text-transform: uppercase;
   transition: background-color 0.5s;
-  border: none;
 }
 .contact-form input[type="submit"]:hover {
   background-color: #007cc7;
